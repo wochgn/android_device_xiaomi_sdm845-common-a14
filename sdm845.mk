@@ -295,7 +295,9 @@ PRODUCT_COPY_FILES += \
 # Protobuf
 PRODUCT_PACKAGES += \
     libprotobuf-cpp-full-3.9.1-vendorcompat \
-    libprotobuf-cpp-lite-3.9.1
+    libprotobuf-cpp-lite-3.9.1 \
+    libprotobuf-cpp-lite-vendorcompat \
+    libprotobuf-cpp-lite
 
 PRODUCT_COPY_FILES += \
     prebuilts/vndk/v29/arm/arch-arm-armv7-a-neon/shared/vndk-core/libprotobuf-cpp-full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-full.so \
